@@ -1,7 +1,0 @@
-cd /
-cd /root/git/dockerdemo
-docker stop helloworld
-docker rm helloworld
-docker build -it helloworld /root/git/dockerdemo/
-docker run -d --name helloworld -p 80:80 -v /root/git/Dockerdemo/src/:/var/www/html hello-world
-

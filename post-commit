@@ -1,8 +1,0 @@
-#!/bin/sh
-
-curl --user root:docker http://192.168.0.104:8080/job/dockerdemo/build?token=root@192.168.0.104
-
-/root/git/dockerdemo/buildexecutable
-
-echo "docker demo test"
-
