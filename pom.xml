@@ -1,7 +1,9 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <name>Maven Default Project</name>
- 
+
+  <groupId>maven_demo</groupId>
+  <artifactId>mvn</artifactId>
+  <version>1.0</version>
   <repositories>
     <repository>
       <id>central</id>
