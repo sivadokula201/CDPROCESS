@@ -180,6 +180,8 @@
             <artifactId>maven-deploy-plugin</artifactId>
             <configuration>
               <updateReleaseInfo>true</updateReleaseInfo>
+              <source>1.8</source>
+              <target>1.8</target>
             </configuration>
           </plugin>
         </plugins>
