@@ -39,15 +39,15 @@
     <sourceDirectory>${project.basedir}/dockerdemo/index.jsp</sourceDirectory>
     <!-- TODO: MNG-3731 maven-plugin-tools-api < 2.4.4 expect this to be relative... -->
     <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
-    <testSourceDirectory>${project.basedir}/src/test/java</testSourceDirectory>
+    <testSourceDirectory>${project.basedir}/dockerdemo/index.jsp</testSourceDirectory>
     <resources>
       <resource>
-        <directory>${project.basedir}/src/main/resources</directory>
+        <directory>${project.basedir}/dockerdemo/index.jsp</directory>
       </resource>
     </resources>
     <testResources>
       <testResource>
-        <directory>${project.basedir}/src/test/resources</directory>
+        <directory>${project.basedir}/dockerdemo/index.jsp</directory>
       </testResource>
     </testResources>
    <pluginManagement>
