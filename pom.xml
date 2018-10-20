@@ -36,18 +36,18 @@
     <outputDirectory>${project.build.directory}/classes</outputDirectory>
     <finalName>${project.artifactId}-${project.version}</finalName>
     <testOutputDirectory>${project.build.directory}/test-classes</testOutputDirectory>
-    <sourceDirectory>${project.basedir}/dockerdemo/index.jsp</sourceDirectory>
+    <sourceDirectory>${project.basedir}/dockerdemo/</sourceDirectory>
     <!-- TODO: MNG-3731 maven-plugin-tools-api < 2.4.4 expect this to be relative... -->
     <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
-    <testSourceDirectory>${project.basedir}/dockerdemo/index.jsp</testSourceDirectory>
+    <testSourceDirectory>${project.basedir}/dockerdemo/</testSourceDirectory>
     <resources>
       <resource>
-        <directory>${project.basedir}/dockerdemo/index.jsp</directory>
+        <directory>${project.basedir}/dockerdemo/</directory>
       </resource>
     </resources>
     <testResources>
       <testResource>
-        <directory>${project.basedir}/dockerdemo/index.jsp</directory>
+        <directory>${project.basedir}/dockerdemo/</directory>
       </testResource>
     </testResources>
    <pluginManagement>
