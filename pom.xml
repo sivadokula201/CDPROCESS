@@ -198,5 +198,8 @@
 			</plugin>
 		</plugins>
 	</build>
-	<name>simple-web-app</name>
+	<web-app>
+        <display-name>simple-web-app</display-name>
+        <description>basic application.</description>
+        </web-app>
 </project>
